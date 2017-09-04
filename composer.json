@@ -125,7 +125,8 @@
         "innova/audio-recorder-bundle": "*",
         "innova/media-resource-bundle": "*",
         "ujm/exo-bundle": "*",
-        "icap/lesson-bundle": "*"
+        "icap/lesson-bundle": "*",
+        "icap/inwicast-plugin-bundle": "*"
     },
     "autoload": {
         "psr-4": {
@@ -186,7 +187,8 @@
             "UJM\\LtiBundle\\": "plugin/lti",
             "Claroline\\CasBundle\\": "plugin/cas",
             "Icap\\BibliographyBundle\\": "plugin/bibliography",
-            "Claroline\\ExternalSynchronizationBundle\\": "plugin/external-user-group-synchronization"
+            "Claroline\\ExternalSynchronizationBundle\\": "plugin/external-user-group-synchronization",
+            "Inwicast\\ClarolinePluginBundle\\": "plugin/inwicast"
         }
     },
     "extra": {
@@ -246,7 +248,8 @@
             "UJM\\LtiBundle\\UJMLtiBundle",
             "Claroline\\CasBundle\\ClarolineCasBundle",
             "Icap\\BibliographyBundle\\IcapBibliographyBundle",
-            "Claroline\\ExternalSynchronizationBundle\\ClarolineExternalSynchronizationBundle"
+            "Claroline\\ExternalSynchronizationBundle\\ClarolineExternalSynchronizationBundle",
+            "Inwicast\\ClarolinePluginBundle\\InwicastClarolinePluginBundle"
         ]
     }
 }
